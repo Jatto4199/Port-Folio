@@ -5,7 +5,7 @@ import Projects from "../components/Projects";
 import Awards from "../components/Awards";
 import Footer from "../components/Footer";
 
-import { portfolioData } from "../data/portfolio";
+import { portfolioData } from "../Data/portfolio";
 
 export default function Portfolio() {
   return (
