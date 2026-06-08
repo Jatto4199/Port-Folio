@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h2 className="text-3xl font-bold mb-4">
-              KSG.
+              Jatto.
             </h2>
 
             <p className="text-zinc-400 leading-relaxed">
@@ -116,7 +116,7 @@ export default function Footer() {
         <div className="border-t border-zinc-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-zinc-500 text-sm">
 
           <p>
-            © {currentYear} KSG Portfolio. All rights reserved.
+            © {currentYear} Portfolio. All rights reserved.
           </p>
 
           <p className="mt-4 md:mt-0">
