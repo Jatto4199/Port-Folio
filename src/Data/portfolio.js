@@ -5,7 +5,7 @@ export const portfolioData = {
     description:
       "Creating secure digital experiences and modern web applications.",
     image:
-      "./public/Me_one.jpeg"
+      "./public/me_one.png"
   },
 
   services: [

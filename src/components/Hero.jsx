@@ -1,15 +1,12 @@
-import React from 'react'
+import React from "react";
 
-export default function Hero({hero}) {
+export default function Hero({ hero }) {
   return (
     <section className="min-h-screen bg-blue-500 text-black">
-
       <div className="max-w-7xl mx-auto px-6 pt-40">
-
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-
           <div>
-               <p className="text-black font-bold md:text-4xl mt-8 max-w-lg">
+            <p className="text-black font-bold md:text-4xl mt-8 max-w-lg">
               {hero.name}
             </p>
             <p className="uppercase tracking-[6px] text-gray-400">
@@ -24,23 +21,20 @@ export default function Hero({hero}) {
               Impact
             </h1>
 
-            <p className="text-gray-400 mt-8 max-w-lg">
-              {hero.description}
-            </p>
-         
+            <p className="text-gray-400 mt-8 max-w-lg">{hero.description}</p>
           </div>
 
           <div>
             <img
-              src={hero.image}
-              // alt={hero.name}
               className="rounded-3xl h-175 w-full object-cover"
+              src="Me_one.png"
+              alt="Logo"
+               alt={hero.name}
             />
+           
           </div>
-
         </div>
-
       </div>
     </section>
-  )
+  );
 }
